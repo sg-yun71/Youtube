@@ -1,0 +1,27 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sg-yun71/Youtube.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sg-yun71/Youtube/issues"
+  },
+  "homepage": "https://github.com/sg-yun71/Youtube#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "nodemon": "^3.1.9"
+  }
+}
